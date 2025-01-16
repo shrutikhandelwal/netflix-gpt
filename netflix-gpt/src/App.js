@@ -1,10 +1,9 @@
 
-import './App.css';
-
+import Body from "./components/Body";
 function App() {
   return (
-    <div className="ring-offset-green-800" >
-     Hello I am developing my app
+    <div>
+     <Body />
     </div>
   );
 }
