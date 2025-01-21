@@ -10,6 +10,17 @@ Steps:
 - Form validation (Either use state variables or useRef of input boxes)
 - useRef hook ()
 - Build Authentication ( We need backend for this- using firebase as backend as it's easy)/      Email and password login/ sign in throygh gmail, fb. You do all that in Authentication.
+- Firebase setup
+- deploying our app to production (domain purchasing websites: godaddy, host cator,)
+- Login the users
+- create sign up user account
+****
+- Create Redux store to store user information we are getting from firebase after signup and signin form.
+
+
+
+  
+
 
 
 
@@ -80,7 +91,28 @@ create react app/ Vite - you can use either create app.
     - email.current.value
       to get the value
     -
+4) Firebase deployment:
+  - Install firebase CLI - 'npm install -g firebase-tools'
+  -Firebase Login - Firebase login
+  - Initilaize firebase = 'firebase init', then  select hosting
+  - Deploy command - 'firebase deploy'
 
+5)Redux:
+  - npm install @reduxjs/toolkit react-redux    
+  - create store: (utils/appStore.js)
+      import { configureStore } from '@reduxjs/toolkit'
+      export const store = configureStore({
+        reducer: {},
+      })
+  - create slice
+  - on the main file:
+    import { appStore } from "./utils/appStore";
+    import { Provider } from 'react-redux'
+     <Provider store={store}>
+      <App />
+    </Provider>,
+
+      
 
 
  
