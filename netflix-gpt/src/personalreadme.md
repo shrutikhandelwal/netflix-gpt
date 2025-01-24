@@ -37,7 +37,12 @@ Steps:
 - Embedded the youtobe video and make iy autoplay and mute
 - Tailwind classes to make Container look awesome
 - Build secondary component 
-
+- Build Movie List
+- Build Movie card
+- TMDB Image CDN URL
+- Made the browse page amazing with Tailwind css
+- UsePopoluar movie custom hook
+ 
 
   
 
