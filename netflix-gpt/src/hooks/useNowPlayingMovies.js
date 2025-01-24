@@ -12,7 +12,6 @@ const useNowplayingMovies = () => {
     const data = await fetch('https://api.themoviedb.org/3/movie/now_playing?page=1', API_OPTIONS)
     //above code gives us the promise. convert data stream promise into readable json.
     const json = await data.json()
-    console.log(json)
     dispatch(addNowPlayingMovies(json.results))
   }
 
