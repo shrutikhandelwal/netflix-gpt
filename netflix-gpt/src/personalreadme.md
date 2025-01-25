@@ -42,7 +42,11 @@ Steps:
 - TMDB Image CDN URL
 - Made the browse page amazing with Tailwind css
 - UsePopoluar movie custom hook
- 
+*****
+Chapt 3:
+- GPT search feature
+- We made our GPT search multilanguage.
+
 
   
 
